@@ -10,13 +10,34 @@
     <div class="container">
         <div class="left-column">
             <div class="container-one"></div>
-            <div class="container-two"></div>
+            <div class="container-two">
+                <div class="carousel">
+                    <button class="arrow" id="prevBtn">
+                        <img src="arrownext.png" alt="Previous">
+                    </button>
+                
+                    <div class="image-container">
+                        <img class="carousel-image" id="carouselImage" src="image1.png" alt="Carousel Image">
+                        <div class="image-counter" id="imageCounter">1 / 5</div>
+                    </div>
+                
+                    <button class="arrow" id="nextBtn">
+                        <img src="arrownext.png" alt="Next">
+                    </button>
+                </div>
+                <div> 
+                    <div class="buttons">
+                    <button class="btn" id="helloButton" onclick="handleVoteClick()">Vote</button>
+                </div>
+                </div>
+            </div>
         </div>
         <div class="right-column">
             <div class="container-three"></div>
             <div class="container-four"></div>
         </div>
     </div>
+    <script src="carousel.js"></script>
 </body>
 </html>
 
